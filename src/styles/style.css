@@ -1,0 +1,367 @@
+/** @format */
+/** @format */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/** @format */
+.container-form {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(transparent)), url("../../images/background-image.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url("../../images/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.login {
+  padding: 4rem 8rem;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  color: royalblue;
+  background: white;
+}
+
+.login h1,
+.login input {
+  margin: 1rem 0rem;
+}
+
+.login h1 {
+  text-align: center;
+  color: royalblue;
+}
+
+.login input {
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.login input:focus {
+  outline: royalblue;
+}
+
+.login label {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.login button {
+  margin: 1rem 0rem;
+  padding: 0.5rem 4rem;
+  background: royalblue;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.login button:focus {
+  outline: none;
+}
+
+.sign-up {
+  padding: 0rem 6.5rem;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  color: royalblue;
+  background: white;
+}
+
+.sign-up h1,
+.sign-up input {
+  margin: 1rem 0rem;
+}
+
+.sign-up h1 {
+  text-align: center;
+  color: royalblue;
+}
+
+.sign-up input {
+  padding: 0.5rem 1.5rem;
+}
+
+.sign-up input:focus {
+  outline: royalblue;
+}
+
+.sign-up label {
+  font-size: 1.5rem;
+  color: black;
+}
+
+.sign-up button {
+  margin: 1rem 0rem;
+  padding: 0.5rem 4rem;
+  background: royalblue;
+  color: white;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.sign-up button:focus {
+  outline: none;
+}
+
+.create-account {
+  text-decoration: none;
+  color: royalblue;
+}
+
+/** @format */
+.home-container {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/** @format */
+.form-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+}
+
+.form-container form {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  padding: 2rem 8rem;
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 15px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2), 0px 15px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-container form label {
+  font-size: 2rem;
+}
+
+.form-container form input {
+  padding: 0.5rem 2rem;
+}
+
+.btn-form {
+  padding: 0.5rem 4rem;
+  cursor: pointer;
+  background: #7726c3;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  border-radius: 12px;
+  margin-top: 2rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-form:hover {
+  background: white;
+  color: #7726c3;
+  border: 1.5px solid #7726c3;
+}
+
+.btn-form:focus {
+  outline: none;
+}
+
+.title-form {
+  color: #7726c3;
+}
+
+/** @format */
+.nav-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  min-height: 20vh;
+}
+
+.nav-container .button-logout {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  text-align: center;
+}
+
+.nav-container .button-logout button {
+  padding: 0.5rem 4rem;
+  cursor: pointer;
+  background: white;
+  color: #7726c3;
+  font-size: 2rem;
+  border: none;
+  border-radius: 12px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-container .button-logout button:focus {
+  outline: none;
+}
+
+.nav-container p {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.sidebar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  min-height: 100vh;
+  background: #7726c3;
+}
+
+.add-task {
+  min-height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+.add-task .fa-calendar-plus {
+  color: white;
+}
+
+.add-task h1 {
+  margin-top: 1rem;
+  color: white;
+}
+
+/** @format */
+.card {
+  background: white;
+  margin: 2rem;
+  min-height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 18px;
+}
+
+.card .img-card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+}
+
+.card .img-card img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+
+.card .body-card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20rem;
+          flex: 1 1 20rem;
+  padding: 1rem;
+}
+
+/** @format */
+.nothing-container {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 40rem;
+          flex: 1 1 40rem;
+  text-align: center;
+}
+
+.nothing-container h1 {
+  color: #7726c3;
+}
+
+.nothing-container .fa-bed {
+  color: #7726c3;
+}
+
+@media (max-width: 480px) {
+  .login {
+    padding: 2rem 4rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

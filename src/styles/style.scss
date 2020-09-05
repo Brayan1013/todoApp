@@ -1,0 +1,14 @@
+/** @format */
+@import "global/global";
+@import "componets/login";
+@import "componets/home";
+@import "componets/form";
+@import "componets/sidebar";
+@import "componets/card";
+@import "componets/nothing";
+@import "componets/carousel";
+@media (max-width: 480px) {
+  .login {
+    padding: 2rem 4rem;
+  }
+}

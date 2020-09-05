@@ -1,0 +1,14 @@
+/** @format */
+
+.sidebar {
+  grid-area: sidebar;
+}
+.form {
+  grid-area: form;
+}
+.home-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

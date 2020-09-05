@@ -1,0 +1,107 @@
+/** @format */
+
+.container-form {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent),
+    url("../../images/background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.login {
+  padding: 4rem 8rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: column;
+  color: royalblue;
+  background: white;
+
+  h1,
+  input {
+    margin: 1rem 0rem;
+  }
+  h1 {
+    text-align: center;
+    color: royalblue;
+  }
+
+  input {
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    &:focus {
+      outline: royalblue;
+    }
+  }
+
+  label {
+    font-size: 1.5rem;
+    color: black;
+  }
+  button {
+    margin: 1rem 0rem;
+    padding: 0.5rem 4rem;
+    background: royalblue;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.sign-up {
+  padding: 0rem 6.5rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-flow: column;
+  color: royalblue;
+  background: white;
+
+  h1,
+  input {
+    margin: 1rem 0rem;
+  }
+  h1 {
+    text-align: center;
+    color: royalblue;
+  }
+
+  input {
+    padding: 0.5rem 1.5rem;
+    &:focus {
+      outline: royalblue;
+    }
+  }
+
+  label {
+    font-size: 1.5rem;
+    color: black;
+  }
+  button {
+    margin: 1rem 0rem;
+    padding: 0.5rem 4rem;
+    background: royalblue;
+    color: white;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.create-account {
+  text-decoration: none;
+  color: royalblue;
+}
